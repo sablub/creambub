@@ -1,0 +1,81 @@
+/* style.css */
+
+/* Navigasi Bar */
+nav {
+    background-color: #ff80d5;
+    color: white;
+}
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 50px; /* Updated */
+}
+nav ul li {
+    display: inline;
+    margin-right: 40px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+header .left {
+    flex: 1;
+}
+header .right {
+    flex: 1;
+}
+
+/* Thumbnails */
+.thumbnails {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.thumbnail {
+    flex: 1;
+    text-align: center;
+}
+.thumbnail img {
+    width: 100%;
+}
+
+/* Style the image grid section */
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.image-row {
+    display: flex;
+    margin: 10px 0;
+}
+.image-row img {
+    max-width: 30%;
+    margin: 0 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #ff80d5;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
